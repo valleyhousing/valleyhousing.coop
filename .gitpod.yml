@@ -1,3 +1,7 @@
+
 tasks:
   - init: npm install -g browser-sync
     command: browser-sync -f index.html -f style.css --no-ui --listen 0.0.0.0
+vscode:
+  extensions:
+    - bradlc.vscode-tailwindcss
